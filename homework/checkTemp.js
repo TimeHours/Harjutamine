@@ -1,6 +1,6 @@
 function checkTemp(temp) {
 console.log(temp);
-if (temp < 20) {
+if (temp <= 20) {
 console.log("liiga külm")
 return -1;
 } else if (temp <= 40) {
