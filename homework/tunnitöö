@@ -51,7 +51,7 @@ for (let i = 0; i < data.length; i++) {
       {
          return([i]);
 }
-    else console.log("mine perse")
+    else console.log()
 }
 }
 
