@@ -1,4 +1,3 @@
-console.log("see töötab")
 const http = require('http');
 
 const requestListener = function (req, res) {
