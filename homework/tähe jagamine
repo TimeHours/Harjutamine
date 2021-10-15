@@ -109,3 +109,26 @@ function balanced(tähed) {
     }
     return x == y
 }
+
+
+
+
+
+
+let töötaja = {
+    name: "Timo"
+    lepinguNr: ""
+}
+
+töötaja.name // "Timo"
+töötaja.vanus // undifined
+töötaja['name'] // "Timo"
+
+töötaja.lepinguNr = A11234
+
+töötaja.hasOwnProperty('name') // true
+töötaja.hasOwnProperty('vanus') // false
+
+delete töötaja.name 
+delete töötaja['name']
+töötaja.name // undifined
