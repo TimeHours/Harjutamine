@@ -89,3 +89,36 @@ ALTER TABLE
     `PlayerParent` ADD CONSTRAINT `playerparent_player_id_foreign` FOREIGN KEY(`player_id`) REFERENCES `player`(`id`);
 ALTER TABLE
     `PlayerParent` ADD CONSTRAINT `playerparent_parent_id_foreign` FOREIGN KEY(`parent_id`) REFERENCES `Parent`(`id`);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    sql seadistamine
+    
+    
+    
+    
+    SELECT firstname,  lastname, `groups`.name 
+FROM `player`
+LEFT JOIN `groups` ON player.group_id = `groups`.id
+WHERE group_id = 4
