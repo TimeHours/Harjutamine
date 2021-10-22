@@ -132,3 +132,13 @@ töötaja.hasOwnProperty('vanus') // false
 delete töötaja.name 
 delete töötaja['name']
 töötaja.name // undifined
+
+
+
+
+
+
+
+
+
+
