@@ -1,0 +1,17 @@
+object  nimekiri aga põhjalikumalt
+
+
+array on numertatud nimekiri 
+muutuja
+Scope skoop
+if tingimuslaused conditionals
+Tsüklid for, while, do while
+Function
+struktuurid
+referance type 0000142-0000256
+
+let pointer = {}
+let pointer2 = {}
+obj = {"name": "Timo", 0: "", [pointer]: "asd"}
+
+console.log(obj[pointer2])
