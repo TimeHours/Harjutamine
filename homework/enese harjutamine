@@ -1,0 +1,52 @@
+//mingi kood mis suudab erinevust teha 4 digits või 6 digiti vahel ja neli on true//
+
+
+function validatePIN(pin) {
+  return /^(\d{4}|\d{6})$/.test(pin)
+}
+
+/////////Teine versioon///////
+
+function validatePIN (pin) {
+  
+  var pinlen = pin.length;
+  var isCorrectLength = (pinlen == 4 || pinlen == 6);
+  var hasOnlyNumbers = pin.match(/^\d+$/);
+    
+  if(isCorrectLength && hasOnlyNumbers){
+    return true;
+  }
+  
+  return false;
+
+}
+
+///////// Vastand number function///////////
+
+
+
+function vastand(number)  {
+return(-number)
+}
+
+
+
+//////// Teised variantid/////////
+
+const opposite = number => -number;
+
+//////
+
+function opposite(number) {
+    return number * (-1);
+    
+//////
+
+const opposite = n => -n;
+
+
+
+
+
+
+
